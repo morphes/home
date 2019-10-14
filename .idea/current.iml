@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/aws/aws-sdk-php" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/composer" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/dannyvankooten/vat.php" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/digitick/sepa-xml" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/elasticsearch/elasticsearch" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/guzzlehttp/guzzle" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/guzzlehttp/promises" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/guzzlehttp/psr7" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/guzzlehttp/ringphp" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/guzzlehttp/streams" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/magento-ecg/coding-standard" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/monolog/monolog" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/mtdowling/jmespath.php" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/neitanod/forceutf8" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/paragonie/random_compat" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/php-amqplib/php-amqplib" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/psr/http-message" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/psr/simple-cache" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/ralouphie/getallheaders" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/ramsey/uuid" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/react/promise" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/squizlabs/php_codesniffer" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/symfony/console" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/symfony/debug" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/symfony/polyfill-mbstring" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/aws/aws-sdk-php" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/composer" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/dannyvankooten/vat.php" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/digitick/sepa-xml" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/elasticsearch/elasticsearch" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/guzzlehttp/guzzle" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/guzzlehttp/promises" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/guzzlehttp/psr7" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/guzzlehttp/ringphp" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/guzzlehttp/streams" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/magento-ecg/coding-standard" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/monolog/monolog" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/mtdowling/jmespath.php" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/neitanod/forceutf8" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/paragonie/random_compat" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/php-amqplib/php-amqplib" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/psr/http-message" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/psr/simple-cache" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/ralouphie/getallheaders" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/ramsey/uuid" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/react/promise" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/squizlabs/php_codesniffer" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/symfony/console" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/symfony/debug" />
+          <root url="file://$MODULE_DIR$/../../shirtee/vendor/symfony/polyfill-mbstring" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

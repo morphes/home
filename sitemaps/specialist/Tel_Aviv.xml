@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+       <loc>http://www.myhome.ru/users/777g</loc>
+       <lastmod>2013-06-27</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/users/maksim_zhiglov</loc>
+       <lastmod>2014-03-30</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/users/hayrutdinovanast</loc>
+       <lastmod>2014-09-08</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/users/Danielwilleart</loc>
+       <lastmod>2016-04-17</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/users/mcimironovich</loc>
+       <lastmod>2016-12-22</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+</urlset>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+       <loc>http://www.myhome.ru/users/brambilla</loc>
+       <lastmod>2013-08-09</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/users/antiek</loc>
+       <lastmod>2014-03-16</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/users/svpremvs</loc>
+       <lastmod>2018-09-10</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/users/firsof</loc>
+       <lastmod>2018-08-29</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/users/design_podushki</loc>
+       <lastmod>2018-09-19</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/users/interiorartpro1</loc>
+       <lastmod>2017-09-10</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+</urlset>

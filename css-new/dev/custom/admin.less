@@ -1,0 +1,41 @@
+// Core variables and mixins
+
+@import '/../../variables.less';
+@import '/../../mixins.less';
+
+.admin-widget{
+	position:fixed;
+	top:0;
+	width:155px;
+	z-index:1050;
+	.border(#ddd);
+	&.hidden{
+		left:-195px;
+	}
+	.-col-2{
+		border-bottom:1px dotted #aaa;
+		select{
+			width:100%;
+		}
+	}
+	>span{
+		background: none repeat scroll 0 0 #EEEEEE;
+		height: 100%;
+		opacity: 0.8;
+		padding-left: 5px;
+		right: -33px;
+		top: -1px;
+		.border(#ddd);
+		border-left:none;
+		transition: opacity 0.2s ease 0s;
+		margin:0;
+		&:hover{
+			opacity:1;
+			.border(#ddd);
+		}
+		&.-pointer-right{
+			padding-left:0;
+			padding-right:5px;
+		}
+	}
+}

@@ -1,0 +1,1 @@
+<h1>The idea successfully deleted</h1>

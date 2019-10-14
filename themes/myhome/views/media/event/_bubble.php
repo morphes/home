@@ -1,0 +1,2 @@
+<?php $count = $eventProvider->getTotalItemCount(); ?>
+<i></i>Показать <a class="" href="#"><?php echo CHtml::tag('span', array(), $count).' '.CFormatterEx::formatNumeral($count, array('событие', 'события', 'событий'), true); ?></a>

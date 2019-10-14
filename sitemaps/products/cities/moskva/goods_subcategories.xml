@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+       <loc>http://www.myhome.ru/products/moskva/upholstered_furniture</loc>
+       <lastmod>2016-08-22</lastmod>
+       <priority>0.8</priority>
+       <changefreq>daily</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/products/moskva/chairs_stools</loc>
+       <lastmod>2016-08-22</lastmod>
+       <priority>0.8</priority>
+       <changefreq>daily</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/products/moskva/tables</loc>
+       <lastmod>2016-08-22</lastmod>
+       <priority>0.8</priority>
+       <changefreq>daily</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/products/moskva/rattan</loc>
+       <lastmod>2016-08-22</lastmod>
+       <priority>0.8</priority>
+       <changefreq>daily</changefreq>
+   </url>
+</urlset>

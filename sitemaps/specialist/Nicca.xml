@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+       <loc>http://www.myhome.ru/users/Vandegraff</loc>
+       <lastmod>2012-06-19</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/users/ArchideaDesign</loc>
+       <lastmod>2014-05-18</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/users/stummheit</loc>
+       <lastmod>2017-01-24</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+</urlset>

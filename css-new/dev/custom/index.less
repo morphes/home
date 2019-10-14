@@ -1,0 +1,264 @@
+// Core variables and mixins
+
+@import '../../variables.less';
+@import '../../mixins.less';
+
+.index {
+	.-layout-content {
+		padding-top: 50px;
+		padding-bottom: 0;
+	}
+
+/* Index promo controls */
+
+	.index-promo-controls {
+		padding-top: 100px;
+	}
+
+/* Index promo */
+
+	.index-promo {
+		border-top: 1px solid #e4e4e4;
+		background: #f5f5f5;
+		border-bottom: 1px solid #e4e4e4;
+		.-menu-block {
+			li {
+				line-height: 1;
+				margin-bottom: 12px;
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+		.vendor-logos {
+			font-size: 0;
+			li {
+				margin: 0;
+				text-align: center;
+				vertical-align: middle;
+				width: 108px;
+			}
+			a {
+				display: inline-block;
+				opacity: 0.5;
+				&:hover {
+					opacity: 1;
+				}
+			}
+			img {
+				display: inline-block;
+				max-height: 45px;
+				max-width: 90px;
+			}
+		}
+
+	}
+
+/* Index promo tab menu */
+
+	.-tab-menu {
+		margin: 0 -15px;
+		li {
+			border: 1px solid transparent;
+			font-size: 16px;
+			margin-left: 18px;
+			padding: 10px 14px;
+			&:first-child {
+				margin-left: 0;
+			}
+			&:last-child {
+				margin-left: 22px;			
+			}
+			&.current {
+				background: #f5f5f5;
+				border: 1px solid #e4e4e4;
+				border-bottom: 2px solid #f5f5f5;
+				border-radius: 3px 3px 0 0;
+				padding: 0;
+				margin-bottom: -1px;
+				z-index: 100;
+				span {
+					border: 0;
+					color: #000;
+					cursor: default;
+					display: inline-block;
+					padding: 10px 14px;
+				}
+			}
+		}
+		span {
+			&:hover {
+				color: #000 !important;
+			}
+		}
+	}
+
+/* Index ideas menu */
+
+	.ideas-menu {
+		margin: 25px 0 15px;
+		li {
+			padding: 0;
+			line-height: 1em;
+		}
+		.current {
+			border: 0;
+			color: #000;
+			text-decoration: none;
+		}
+	}
+
+/* Index slider */
+
+	.-slider {
+		max-width: 540px;
+		max-height: 390px;
+	}
+	.-slider-content {
+		height: 390px;
+		position:relative;
+		padding:0;
+		margin:0;
+	}
+	.-slide {
+		div {
+			bottom: 15px;
+			padding: 7px 17px 14px;
+			border-radius: 0 3px 3px 0;			
+		}
+	}
+
+/* Index idea thumbs */
+
+	.idea-thumb {
+		line-height: 1.2;
+		margin-bottom: 20px;
+		position: relative;
+		div {
+			border-radius: 0 3px 0 0;
+			bottom: 0;
+			display: none;
+			max-width: 80%;
+			padding: 7px 14px 10px 14px;
+			position: absolute;
+		}
+		span {
+			display: block;
+			line-height: 25px;			
+		}
+	}
+	.thumb-overlay {
+		position: absolute;
+		background: rgba(255,255,255,0.9);
+		bottom: 0;
+
+		*background: transparent;
+		-ms-filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5FFFFFF,endColorstr=#E5FFFFFF)";
+    		filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5FFFFFF,endColorstr=#E5FFFFFF)";
+      		*zoom: 1;		
+
+		z-index: +1;
+		padding: 10px 17px;
+		border-radius: 0 3px 0 0;
+		max-width:80%;
+		line-height:20px;
+		&:hover {
+			span.-hidden {
+				display: block;
+				visibility: visible;
+			}
+		}
+	}
+
+/* Spec thumbs & range */
+
+	.spec-thumb {
+		display: inline-block;
+		font-size: 0;
+		margin: 0 6px 10px 0;
+		vertical-align: top;
+		img {
+			width: 95px;
+			height: 95px;
+		}
+	}
+	.spec-range {
+		li {
+			margin-bottom: 5px;			
+		}
+	}
+
+	&:not(.touch){
+		.idea-thumb:hover {
+			div {
+				display: inline-block;
+				background: rgba(255,255,255,0.9);
+			}
+		}
+	}
+}
+
+/* Ideas promo */
+
+.ideas-promo {
+	margin-bottom: 60px;	
+}
+
+/* Spec promo */
+
+.spec-promo {
+	margin-bottom: 70px;
+	.-col-3 {
+		div {
+			text-align: center;
+			padding: 29px 19px;
+			background: #f5f5f5;
+			box-shadow: 0 0 0 1px #e4e4e4 inset;
+			max-height: 200px;			
+		}
+	}
+}
+
+/* Media promo */
+
+.media-promo {
+	margin-bottom: 70px;
+	li {
+		height: 60px;
+		margin-bottom: 10px;
+		padding-left: 70px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.-quad-60 {
+		left: -70px;
+	}
+}
+
+/* Expert promo */
+
+.expert-promo {
+ 	background: #f5f5f5;
+ 	outline: 1px solid #e4e4e4;
+	padding-bottom:20px !important;
+	.push-left {
+		width: 420px;
+	}
+	.push-right {
+		width: 190px;
+	}
+	.-menu-block {
+		li {
+			margin-bottom: 7px;			
+		}
+	}
+	.spec-thumb {
+		margin: 0 -4px 10px 10px;
+		img {
+			height: 85px;
+			width: 85px;
+		}
+	}
+}
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+       <loc>http://www.myhome.ru/users/test2</loc>
+       <lastmod>2013-10-02</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/users/22231</loc>
+       <lastmod>2012-05-02</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/users/Semeleo</loc>
+       <lastmod>2012-09-14</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/users/stmaxvl</loc>
+       <lastmod>2014-01-10</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+</urlset>

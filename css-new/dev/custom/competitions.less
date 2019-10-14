@@ -1,0 +1,146 @@
+// Core variables and mixins
+
+@import '/../../variables.less';
+@import '/../../mixins.less';
+
+// Default styles
+.competitions{
+	.-hidden {
+		display: none;
+	}
+	&.index{
+		.complete-competitions{
+			margin-top:50px;
+			.-col-wrap{
+				width:440px;
+				height:175px;
+				padding:20px;
+				margin-bottom:45px;
+				position:relative;
+				.border();
+				.border-radius();
+				&:nth-of-type(odd){
+					margin-right:45px;
+				}
+				img{
+					position:absolute;
+					bottom:0;
+					left:305px;
+				}
+				p{
+					width:260px;
+				}
+			}
+		}
+	}
+	&.ipad{
+		.page-content{
+			margin-top:30px;
+		}
+		.competition-page{
+			box-shadow:0 0 10px 5px rgba(0,0,0,0.3);
+			background:url(/img-new/competiotion-ipad.jpg) no-repeat;
+			padding-bottom:40px;
+			.-col-10{
+				margin-left:160px;
+			}
+		}
+		.description-block{
+			img{
+				margin-top:-30px;
+			}
+		}
+		.button-block{
+			padding:20px;
+			padding-left:10px;
+			margin:50px 0 20px -20px;
+			width:700px;
+			.border-radius();
+		}
+		.conditions ol{
+			padding-left:20px;
+			li{
+				margin-bottom:20px;
+			}
+		}
+		.questions-block{
+			margin:40px 0 40px;
+		}
+		&.result{
+			.description-block{
+				margin-bottom:35px;
+				.-col-4{
+					margin-top:133px;
+				}
+			}
+			.winners{
+				h1{
+					font-size:48px;
+					margin-bottom: 32px;
+				}
+				.-col-wrap{
+					width:145px;
+					&.-large{
+						width:175px;
+					}
+				}
+				p{
+					margin-top:65px;
+					margin-bottom:27px;
+				}
+			}
+		}
+	}
+	#inviteFormBlock {
+		position: relative;
+		z-index: 999;
+		.border-radius(3px);
+		input {
+			height: 38px;
+			margin-bottom: 0;
+			margin-left: 0;
+			.box-sizing();
+		}
+		.-icon-cross {
+			position: absolute;
+			right: 10px;
+			top: 10px;
+		}
+		&.highlighted {
+			z-index: 1000 !important;
+			&:after {
+				background: rgba(0,0,0,0.5);
+				content: '';
+				display: block;
+				height: 100%;
+				left: 0;
+				position: fixed;
+				top: 0;
+				width: 100%;
+				z-index: -2;
+			}
+			&:before {
+				background: @tinygray;
+				content: '';
+				display: block;
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+				z-index: -1;
+				.border-radius(3px);
+			}			
+		}
+		&:after{
+			position:absolute;
+			top:0;
+			left:0;
+			background:#fff;
+			height:80px;
+			width:100%;
+			.opacity(80);
+			content:'';
+		}
+	}
+}

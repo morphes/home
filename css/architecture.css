@@ -1,0 +1,275 @@
+.project_add .block_headline{
+	background: none repeat scroll 0 0 #4D4D4D;
+	border-radius: 5px 5px 5px 0;
+	color: #FFFFFF;
+	display: inline-block;
+	left: -18px;
+	margin: 0 0 -2px 0;
+	padding: 9px 18px;
+	position: relative;
+	top: -18px;
+}
+.project_add .block_headline span{
+	font:normal 12px;
+}
+.project_add .hint_conteiner .del_img{
+	margin-left:18px;
+}
+.project_add .input_conteiner{
+	width:464px;
+}
+
+.building_type .input_conteiner{
+	padding-bottom:19px;
+	border-bottom:1px dotted #ABABA5;
+}
+.project_add .textInput{
+	padding:6px 4px;
+}
+.project_add .drop_down .exp_current{
+	width:455px;
+	padding:5px 4px;
+	height: 18px;
+	margin-bottom:0;
+	float:left;
+}
+.project_add .drop_down ul{
+	top: 46px;
+}
+.project_add .drop_down li{
+	width:453px;
+}
+.project_add .drop_down li a{
+	text-decoration:none;
+	color:#000;
+}
+.add_coautor_link a{
+	font:13px 'UbuntuMedium';
+	color:#000;
+	text-decoration:none;
+	border-bottom:1px dotted #000;
+}
+.add_coautor_link a:hover{
+	color:#B81D1B;
+	text-decoration:none;
+	border-bottom:1px dotted #B81D1B;
+}
+
+.add_coautor_link i{
+	background: url("../img/i.png") no-repeat scroll -122px -52px transparent;
+	display: inline-block;
+	height: 14px;
+	margin-right: 5px;
+	overflow: hidden;
+	position: relative;
+	top: 3px;
+	width: 14px;
+}
+
+.project_add .materials{
+	width:340px;
+	float:left;
+	margin:0 10px 0 0;
+}
+.project_add .materials .drop_down .exp_current{
+	width:330px;
+}
+
+.project_add .materials .drop_down ul li{
+	width:328px;
+}
+
+.project_add .flors{
+	width:114px;
+	float:left;
+}
+.project_add .flors .drop_down .exp_current{
+	width:105px;
+}
+.project_add .flors .drop_down ul li{
+	width:103px;
+}
+
+.colors{
+	width:144px;
+	float:left;
+	margin-right:15px;
+	position:relative;
+}
+.colors.last{
+	margin-right:0px;
+}
+.project_add .colors .drop_down .exp_current{
+	width:137px;
+}
+.project_add .colors .drop_down ul li{
+	width:135px;
+}
+
+.inputs_list.error input{
+	box-shadow:0 0 0 2px #FBC2C4;
+	background: #FBC2C4
+}
+.inputs_list ul{
+	margin:3px 0 0 0;
+}
+
+.inputs_list ul li{
+	background:none;
+	float:left;
+	padding:0;
+	width:230px;
+	margin-top: 6px;
+}
+
+.inputs_list ul li input[type="checkbox"]{
+	position:relative;
+	top:1px;
+	margin-right:10px;
+}
+
+.inputs_list ul li.checkall a{
+	font-weight:bold;
+}
+
+.inputs_list ul li a{
+	color:#000;
+	text-decoration:none;
+}
+.inputs_list ul li label{
+	font:normal 12px;
+}
+.input_conteiner.interior_selector.textInput{
+	height: 190px;
+	overflow: auto;
+	padding: 5px 0;
+	width: 463px;
+}
+.input_conteiner.interior_selector.textInput ul li{
+	height:20px;
+	border:none !important;
+	white-space:nowrap ;
+	padding:4px 7px 0px;
+	margin:0;
+	background:none;
+	cursor:pointer;
+}
+.input_conteiner.interior_selector.textInput li:hover, .input_conteiner.interior_selector.textInput li.current{
+	color:#fff !important;
+	background:url(../img/city_list.jpg) !important;
+}
+
+.hint_conteiner .shadow_block.white{
+	width:200px;
+	height:200px;
+	margin-left:12px;
+	border:1px solid #EAEAEA;
+}
+.add_coautor .textInput{
+	width:455px;
+}
+
+.coautor_role{
+	width:223px;
+	margin:15px 19px 0px 0;
+	float:left;
+}
+
+.coautor_role .textInput{
+	width:213px;
+}
+
+.coautor_site{
+	width:223px;
+	float:left;
+	margin:15px 0px 0px 0;
+}
+
+.coautor_site .textInput{
+	width:213px;
+}
+.cover_conteiner img{
+	border:1px solid #D7D0B7;
+}
+
+.del_cover i{
+	background: url("../img/i.png") repeat scroll -244px -276px transparent;
+	cursor: pointer;
+	display: inline-block;
+	height: 18px;
+	position: relative;
+	top: 3px;
+	width: 18px;
+}
+.del_cover a{
+	text-decoration:none;
+	border-bottom:1px dotted #B81D1B;
+	color:#B81D1B;
+}
+.del_cover a:hover{
+	text-decoration:none;
+	border-bottom:1px dotted #000;
+	color:#000;
+}
+
+.project_add .input_conteiner_img{
+	border:2px solid #DBDBD8;
+	width:150px;
+	height:150px;
+}
+.project_add .image_inp label{
+	position:relative;
+	top:-2px;
+}
+
+.project_add .image_inp textarea{
+	width:282px
+}
+
+.project_add .image_inp .del_cover{
+	position:relative;
+	top:-5px;
+}
+
+.disabled_mask{
+	height:1345px;
+	position:absolute;
+	left:0;
+	top:150px;
+	z-index:40;
+	width:500px;
+}
+
+.relative{
+	position:relative;
+}
+
+.project_add .drop_down.error .exp_current{
+	background: none repeat scroll 0 0 #FCEFEF;
+	box-shadow: 0 0 0 1px #FBC2C4;
+	width:454px;
+}
+.project_add .drop_down.error ul {
+	top: 51px;
+}
+
+.project_add .colors .drop_down.error .exp_current{
+	padding: 4px 4px 5px;
+	width:137px;
+}
+.project_add .materials .drop_down.error .exp_current{
+	padding: 4px 4px 5px;
+	width:328px;
+}
+.project_add .flors .drop_down.error .exp_current{
+	padding: 4px 4px 5px;
+	width:103px;
+}
+
+.architecture_list .item{
+	height:310px;
+
+}
+.architecture_list .item .item_name{
+	margin-bottom:1px;
+}

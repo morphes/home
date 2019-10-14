@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+       <loc>http://www.myhome.ru/catalog/volhov/furniture</loc>
+       <lastmod>2014-09-08</lastmod>
+       <priority>0.8</priority>
+       <changefreq>daily</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/catalog/volhov/finishes</loc>
+       <lastmod>2014-09-08</lastmod>
+       <priority>0.8</priority>
+       <changefreq>daily</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/catalog/volhov/doors_windows</loc>
+       <lastmod>2014-09-08</lastmod>
+       <priority>0.8</priority>
+       <changefreq>daily</changefreq>
+   </url>
+</urlset>

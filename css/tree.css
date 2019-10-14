@@ -1,0 +1,9 @@
+#tree .selected {
+	background-color: #06c;
+}
+
+.navigate {
+	background-color: black;
+	float: right;
+	width: 150px;
+}

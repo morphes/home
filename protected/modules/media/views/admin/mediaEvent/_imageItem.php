@@ -1,0 +1,1 @@
+<?php echo CHtml::image('/'.$file->getPreviewName(MediaEvent::$preview['crop_80'])); ?>

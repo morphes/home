@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+       <loc>http://www.myhome.ru/catalog/shimsk/storage_furniture</loc>
+       <lastmod>2014-09-08</lastmod>
+       <priority>0.8</priority>
+       <changefreq>daily</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/catalog/shimsk/beds_mattress</loc>
+       <lastmod>2014-09-08</lastmod>
+       <priority>0.8</priority>
+       <changefreq>daily</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/catalog/shimsk/chairs_stools</loc>
+       <lastmod>2014-09-08</lastmod>
+       <priority>0.8</priority>
+       <changefreq>daily</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/catalog/shimsk/tables</loc>
+       <lastmod>2014-09-08</lastmod>
+       <priority>0.8</priority>
+       <changefreq>daily</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/catalog/shimsk/kitchen_furniture</loc>
+       <lastmod>2014-09-08</lastmod>
+       <priority>0.8</priority>
+       <changefreq>daily</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/catalog/shimsk/juvenile</loc>
+       <lastmod>2014-09-08</lastmod>
+       <priority>0.8</priority>
+       <changefreq>daily</changefreq>
+   </url>
+</urlset>

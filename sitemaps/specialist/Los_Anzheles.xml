@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+       <loc>http://www.myhome.ru/users/Design_inout</loc>
+       <lastmod>2014-10-07</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/users/svpremvs</loc>
+       <lastmod>2018-09-10</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/users/karya</loc>
+       <lastmod>2014-03-05</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/users/mgnarchitects</loc>
+       <lastmod>2019-05-15</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+   <url>
+       <loc>http://www.myhome.ru/users/ceilingca1</loc>
+       <lastmod>2015-03-27</lastmod>
+       <priority>0.6</priority>
+       <changefreq>weekly</changefreq>
+   </url>
+</urlset>

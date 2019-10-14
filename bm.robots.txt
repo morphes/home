@@ -1,0 +1,9 @@
+User-agent: Yandex
+Disallow: /
+Host: www.myhome.ru
+
+User-agent: Googlebot
+Disallow: /
+
+User-agent: *
+Disallow: /

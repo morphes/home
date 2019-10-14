@@ -1,0 +1,1 @@
+<!--myhome.ru160x600 1--><script type="text/javascript" src="http://go.youlamedia.com/sjs.php?z=26621"></script>

@@ -1,0 +1,75 @@
+server {
+    listen       80;
+    server_name static.testmyhome.ru;
+
+    listen 188.40.143.11;
+    listen 127.0.0.1;
+
+    access_log  /home/static/log/access.log;
+
+    location /dav {
+
+        min_delete_depth 0;
+        alias /home/static/protected;
+        client_max_body_size 1000m;
+        client_body_temp_path /home/static/tmp;
+        dav_methods PUT DELETE MKCOL COPY MOVE;
+        dav_ext_methods PROPFIND OPTIONS;
+        create_full_put_path on; #при отсутствии вложенных папок, при включенной директиве, nginx автоматически создаст иерархию
+        dav_access  user:rw; #права на файлы
+        autoindex on;
+
+        satisfy all;
+        auth_basic "Restricted area";
+        auth_basic_user_file /etc/nginx/.htpasswd/passwd;
+        allow 127.0.0.1;
+        allow 188.40.143.11;
+        allow 37.192.128.242;
+	allow 92.125.138.55;
+        deny all;
+    }
+
+    location /delete {
+
+            min_delete_depth 0;
+            alias /home/static/public;
+            client_max_body_size 1000m;
+            client_body_temp_path /home/static/tmp;
+            dav_methods PUT DELETE MKCOL COPY MOVE;
+            dav_ext_methods PROPFIND OPTIONS;
+            create_full_put_path on; #при отсутствии вложенных папок, при включенной директиве, nginx автоматически создаст иерархию
+            dav_access  user:rw; #права на файлы
+            autoindex on;
+
+            satisfy all;
+            auth_basic "Restricted area";
+            auth_basic_user_file /etc/nginx/.htpasswd/passwd;
+            allow 127.0.0.1;
+            allow 188.40.143.11;
+            allow 37.192.128.242;
+	    allow 92.125.138.55;
+            deny all;
+    }
+
+    location / {
+        expires 1M;
+        #allow all;
+        allow 37.192.128.242;
+	allow 92.125.138.55;
+        allow 188.40.143.11;
+        allow 127.0.0.1;
+        deny all;
+        root /home/static/public;
+        #autoindex on;
+        access_log off;
+        log_not_found off;
+        if ($request_method !~ ^(GET|HEAD)$ ) {
+            return 444;
+        }
+        error_page 404 @fallback;
+    }
+
+    location @fallback {
+        rewrite ^(.*)$ /nophoto.svg redirect;
+    }
+}

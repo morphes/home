@@ -1,0 +1,49 @@
+// Core variables and mixins
+
+@import '../../variables.less';
+@import '../../mixins.less';
+
+// Static section classes
+
+.static {
+	background: #fafaf6;
+}
+.static-rating {
+	p {
+		line-height: 1.65;
+	}
+	ol {
+		padding: 0;
+		li {
+			padding-bottom: 25px;
+			padding-left: 2em;
+			h4 {
+				margin-left: -1.5em;
+				i {
+					display: inline-block;
+					font-style: normal;
+					width: 1.5em;
+				}
+			}
+			p {
+				margin-bottom: 8px;
+			}
+			span {
+				color: @gray;
+			}
+		}
+	}
+	.page-content > .-grid > .-col-9.-pass-3 {
+		position: relative;
+		&:after {
+			background: url('/img-new/rating-bg.png') no-repeat;
+			content: '';
+			display: block;
+			width: 151px;
+			height: 164px;
+			position: absolute;
+			right: -190px;
+			top: -50px;
+		}
+	}
+}

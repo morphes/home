@@ -1,0 +1,194 @@
+.tbl_conteiner{
+    display:none;
+    margin-bottom:20px
+}
+
+.my_th{
+    margin-top:11px;
+    width: 960px;
+}
+
+.th div{
+    padding:15px 0 5px;
+    /*border-top:1px dotted #797975;*/
+    color:#797975;
+    font-size:11px;
+    display:inline-block;
+}
+
+.my_th td{
+    padding:5px 0 5px;
+    border-top:none;
+    color:#797975;
+    vertical-align:bottom;
+    font-size:11px;
+}
+.drop_down span.required_notice{
+    border-color:#AE9190;
+}
+.drop_down.required_field.validate_error span.required_notice{
+    border-color:#BF9996;
+    border-width:2px;
+    background:#FCEFEF;
+    padding: 2px 1px 2px 4px;
+}
+.th .service_name{
+    padding-left: 20px;
+    width: 252px;
+    float:left;
+}
+.th .service_count{
+    padding-right:10px;
+    width: 86px;
+    float:left;
+}
+.th .price_segment{
+    width:144px;
+    float:left;
+}
+.th .service_exp{
+    padding-right:0px;
+    width:80px;
+    float:left;
+}
+.th .service_rating{
+    padding-right: 12px !important;
+    width: 98px;
+    float:left;
+}
+.my_th .service_name{
+    padding-left:40px;
+    width:305px;
+}
+
+.my_th .service_exp{
+    width:90px;
+    padding-left:27px;
+}
+
+.my_th .price_range{
+    padding-left:0px;
+    width:114px;
+}
+.service_exp.drop_down span{
+    width:88px;
+}
+.service_exp.drop_down ul li{
+    width:85px;
+}
+.my_th .price_range .c-hinter{
+    left:-5px;
+    height:10px;
+}
+.my_serv_list td{
+    padding:7px 0;
+}
+
+.serv_row{
+    clear:both;
+    padding:7px 0;
+    cursor:pointer;
+}
+.serv_row:hover{
+    background:#F3F3EB;
+}
+
+.my_serv_list  .service_count{
+    width:100px;
+    padding-right:20px;
+}
+
+.my_serv_list  .service_exp{
+    width:95px;
+    padding:0 10px 0 5px;
+    height:15px;
+}
+
+.my_serv_list  .service_name{
+    width:280px;
+    padding-right:10px;
+    padding-left:30px;
+}
+.my_serv_list  .price_range{
+    padding:0 0px 0 0;
+}
+
+
+table.my_serv_list{
+    margin-bottom:20px;
+    color:#000;
+    width:960px;
+    margin-left:12px
+}
+
+.my_serv_list{
+    margin-bottom:0px;
+}
+
+.tbl_conteiner.last{
+    margin-bottom:0;
+}
+
+.my_serv_list tr.active td{
+    background:#F3F3EB;
+    border-color:transparent;
+}
+
+.my_serv_list tr.active span{
+    display:block;
+}
+
+.drop_down span{
+    width:152px;
+    padding:3px 2px 3px 5px;
+    color:#2D2D2D;
+    border-radius:3px;
+    border:1px solid #CECECA;
+    background:#fff;
+    cursor:pointer;
+    display:inline-block;
+    margin-bottom:-2px;
+    box-shadow:inset rgba(0, 0, 0, 0.15) 0 1px 2px;
+}
+
+.drop_down.filter_item p{
+    margin-bottom:10px;
+}
+
+.drop_down span i{
+    background:url("../../img/select_bg.jpg") no-repeat scroll 0 8px transparent;
+    float:right;
+    height:15px;
+    width:12px;
+}
+
+.drop_down ul{
+    display:none;
+    position:absolute;
+    z-index:50;
+    max-height: 115px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    border-bottom:1px solid #ccc;
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+    margin: 0px !important;
+}
+
+.drop_down ul li{
+    background:#fff !important;
+    width:149px;
+    padding:3px 5px;
+    margin:0;
+}
+
+
+.drop_down ul li:hover,.drop_down ul li.active{
+    background:#eee !important;
+    cursor:pointer;
+}
+
+.disabled {
+    cursor: default !important;
+    opacity: 0.35;
+}

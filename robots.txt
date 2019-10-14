@@ -1,0 +1,54 @@
+User-agent: Yandex
+Disallow: /member/favorite
+Disallow: /search
+Disallow: /site/registration
+Disallow: /site/login
+Disallow: /oauth
+Disallow: /idea/index/catalog
+Disallow: /specialist/list?service
+Disallow: /site/activation/key
+Disallow: /member/message
+Disallow: *store_id
+Disallow: *utm_
+Host: www.myhome.ru
+
+User-agent: Googlebot
+Disallow: /member/favorite
+Disallow: /search
+Disallow: /site/registration
+Disallow: /site/login
+Disallow: /oauth
+Disallow: /idea/index/catalog
+Disallow: /specialist/list?service
+Disallow: /site/activation/key
+Disallow: /member/message 
+Disallow: *store_id
+Disallow: *utm_
+
+User-agent: *
+Disallow: /member/favorite
+Disallow: /search
+Disallow: /site/registration
+Disallow: /site/login
+Disallow: /oauth
+Disallow: /idea/index/catalog
+Disallow: /specialist/list?service
+Disallow: /site/activation/key
+Disallow: /member/message 
+Disallow: *store_id
+Disallow: *utm_
+
+Disallow: store_id
+Disallow: ftheme
+Disallow: f_genre
+Disallow: f_whom
+Disallow: pagesize
+Disallow: sorttyp
+Disallow: f_viewtype
+Disallow: utm
+Disallow: price_from
+Disallow: price_to
+Disallow: /member/profile
+Disallow: /specialist?city
+
+Sitemap: http://www.myhome.ru/sitemap.xml

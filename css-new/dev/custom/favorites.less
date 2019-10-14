@@ -1,0 +1,39 @@
+// Core variables and mixins
+
+@import '/../../variables.less';
+@import '/../../mixins.less';
+
+.favorites {
+	background: #fafaf6;
+	.-layout-content {
+		padding-top: 80px;
+		.-col-3 {
+			background: @white;
+			box-shadow: 0 0 8px rgba(0,0,0,0.25);
+			margin-bottom: 20px;
+			.box-sizing();
+			padding:1px;
+			overflow:hidden;
+			img{
+				margin:-1px 0 0 -1px;
+			}
+			&:hover {
+				border: 1px #bbb solid;
+				padding:0;
+			}
+			div {
+				padding: 5px 10px 0;
+				+ a {
+					display: inline-block;
+					height: 3em;
+					line-height: 1.5;
+					padding: 0 10px 10px;
+					text-decoration: none;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,217 @@
+ul.adminMenu { margin-left: 10px; }
+ul.adminMenu ul { margin-left: 15px; }
+ul.adminMenu li.active > a { color: #9d261d; }
+ul.adminMenu > li > a, ul.adminMenu > li > span { font-weight: bold; font-size: 14px; }
+ul.adminMenu > li > ul li { list-style: circle; }
+
+/* Внешний вид загрузчика фоток в админке */
+.qq-uploader .add { color: #900; font-size: 16px; }
+.qq-uploader .add:hover { color: #4E81A8; }
+.qq-uploader .qq-descr { width: 70%; }
+#preview{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+}
+table.detail-view th{
+    width: 20%;
+}
+.container-fluid .rightbar {position: absolute; top: 0pt; right: 20px; width: 260px;}
+.container-fluid .rightbar .well {overflow: hidden;}
+.container-fluid .content {margin-right: 280px;}
+.container-fluid .content.disable-rightbar { margin-right: 20px; }
+
+table tr.selected td { background-color: #FEE9CC !important; border-top-color: #ccc; }
+
+
+.grid-view a > img { opacity: 0.5; }
+.grid-view a > img:hover { opacity: 1; }
+.grid-view table th { white-space: nowrap; }
+
+
+.inputs-list label { display: inline-block !important; }
+
+.adminArrows { position: fixed; width : 48px; height : auto; top : 50%; right : 10px; padding : 3px 3px 5px; background-color : white; border : 3px solid #999; border-radius: 8px;}
+
+
+/* Sortable таблица */
+.drag-vac-head .row > div { font-weight: bold; color: #0069D6; padding-bottom: 10px; }
+
+ul.drag-vac { margin: 0 0 0 0; }
+ul.drag-vac li { list-style: none; color: black; cursor: move; }
+ul.drag-vac li > div { padding: 10px 0; border-top: 1px solid #DDD; }
+ul.drag-vac li:nth-child(odd) > div { background-color: #F9F9F9 !important; }
+ul.drag-vac li:hover >div { background-color: whitesmoke !important; }
+/*ul.drag-vac li:hover { background-color: bisque; }*/
+
+.good-title{
+	background:none repeat scroll 0 0 #E5F0E0;
+	border-radius:5px 5px 5px 5px;
+	color:#2f7111;
+	font-size:14px;
+	margin-bottom:8px;
+	padding:10px;
+	width:450px;
+}
+
+.clear {
+	clear: both;
+}
+.add_coautor {
+	margin-bottom: 20px;
+}
+
+.form-stacked div.clearfix.error {
+	padding-top: 0 !important;
+}
+
+.hidden_text{
+    display: inline-block;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    top: -500px;
+    width: 1px;
+}
+
+input.theme_input.span7 {
+	display: inline-block;
+	width: 40px;
+}
+input.theme_input.span7 + label {
+	display: inline-block;
+}
+
+
+#service-grid .big_plus {
+	font-size: 18px;
+	line-height: 13px;
+}
+
+ul#result_search {
+	border-color: gray;
+	position: absolute;
+	padding: 5px 10px;
+	display: none;
+}
+ul#result_search li {
+	list-style: none;
+}
+ul#result_search a {
+	color: #0069D6;
+}
+
+
+/*
+Progress Bar CSS3
+*/
+
+.meter {
+	height: 20px; /* Can be anything */
+	position: relative;
+	margin: 3px 0;
+	background: #040;
+	border-radius: 25px;
+	padding: 2px;
+	box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.meter > i {
+	position: absolute;
+	left: 42%;
+	top: 3px;
+	color: white;
+}
+
+.meter > span {
+	display: block;
+	height: 100%;
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(43, 194, 83)), color-stop(1, rgb(84, 240, 84)));
+	background-image: -moz-linear-gradient(center bottom, rgb(43, 194, 83) 37%, rgb(84, 240, 84) 69%);
+	box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+	position: relative;
+	overflow: hidden;
+}
+
+.meter > span:after, .animate > span > span {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
+	background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+	z-index: 1;
+	-webkit-background-size: 50px 50px;
+	-moz-background-size: 50px 50px;
+	-webkit-animation: move 2s linear infinite;
+	border-radius: 10px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	overflow: hidden;
+}
+
+.animate > span:after {
+	display: none;
+}
+
+@-webkit-keyframes move {
+	0% {
+	   background-position: 0 0;
+	}
+	100% {
+	   background-position: 50px 50px;
+	}
+}
+
+#product_cart {
+	margin: 5px 0 0 15px;
+}
+
+.added_cart img {
+	opacity: 1 !important;
+}
+
+.action_link, .action_link:hover {
+	text-decoration: none;
+}
+.action_link {
+	border-bottom: 1px dashed blue;
+	margin-bottom: 10px;
+}
+.action_form {
+	margin-top:12px;
+	display: none;
+}
+/*список услуг*/
+.well.white{
+	background:white;
+}
+.services-list{
+	width:680px;
+	height:400px;
+	overflow:auto;
+}
+
+.clearfix label.compare_offer{
+	display:inline-block ;
+	font-size: 13px;
+	font-weight: normal;
+	margin-right: 10px;
+}
+.clearfix label.compare_offer.hide{
+	display:none;
+}
+
+.affix {
+	position: fixed;
+}
+
+.spacer-18 {
+    height: 18px;
+}

@@ -1,0 +1,221 @@
+.pathBar{
+	padding-right:10px;
+}
+.search_page{
+	width:980px;
+}
+h2.block_head{
+	line-height:15px;
+}
+.search_section .other_request{
+	border-top:1px dotted #CCC;
+	padding-top:12px;
+}
+.search_section .other_request span{
+	font-size:11px;
+	color:#808080;
+}
+.search_section .section_name .other_request a{
+	color:#2d2d2d;
+	font-size:13px;
+}
+.search_section .section_name .other_request a:hover{
+	color:#b81d1b;
+}
+.search_list {
+	padding-left:21px;
+}
+.search_list .other_request{
+	font-size:13px;
+	color:#808080;
+	margin-bottom:26px;
+}
+.search_list .item{
+	margin-bottom:40px;
+}
+.search_list .item:last-child{
+	margin-bottom:25px;
+}
+.search_list .item .cnt{
+	font-size:13px;
+	color:#808080;
+	display:inline-block;
+	width:33px;
+	float:left;
+}
+.search_list .item > a{
+	height:120px;
+	display:inline-block;
+	float:left;
+	margin-right:18px;
+}
+.search_list .item .item_desc{
+	width:745px;
+	float:left;
+	margin-top:-2px;
+}
+.search_list .item .rating{
+	display:block;
+	margin-bottom: 5px;
+}
+.search_list .item .rating span{
+	font-size:14px;
+	color:#b81d1b;
+	font-weight:bold;
+	margin-right:5px;
+}
+.item_head{
+	display: inline-block;
+	font:13px 'UbuntuMedium';
+	margin-bottom: 6px;
+}
+.search_list .item p{
+	font-size:13px;
+	margin-bottom:3px;
+}
+.item_path,.item_tags,.block_item_info {
+	font-size:11px;
+	color:#808080;
+}
+.item_path.short{
+	display: inline-block;
+	height: 18px;
+	overflow: hidden;
+}
+
+.toggler{
+	color:#808080;
+	cursor:pointer;
+	position:relative;
+	top:-4px;
+}
+.item_path a,.item_tags a{
+	color:#808080;
+}
+
+.item_path a:hover,.item_tags a:hover{
+	color:#b81d1b;
+}
+.block_item_info{
+	width:180px;
+	margin-top: 3px;
+}
+.block_item_info a{
+	color:#808080;
+}
+.block_item_info a:hover{
+	color:#b81d1b;
+}
+.forum .block_item_info{
+	display:inline-block;
+	width:auto;
+}
+.forum .block_item_info .block_item_counters{
+	margin-left:25px;
+
+}
+.forum .block_item_info > span{
+	display: inline-block;
+	float: left;
+}
+.forum .comments_quant{
+	margin-left:22px;
+	display: inline-block;
+}
+
+.tenders .block_item_info{
+	width:250px;
+}
+.tenders .block_item_info .block_item_counters{
+	float:none;
+	margin-left:25px;
+}
+.tenders .block_item_info .block_item_counters span{
+	margin-right:25px;
+}
+.tenders .item.closed .item_head,.tenders .item.closed .item_desc p{
+	color:#808080;
+}
+.tenders .item.closed sup{
+	color:#808080;
+	font-size:11px;
+	margin-left:3px;
+}
+.block_item_info .block_item_counters{
+	margin:0;
+}
+.block_item_counters a{
+	color:#808080;
+}
+.block_item_counters a:hover{
+	color:#b81d1b;
+}
+
+.search_section{
+	padding:0 0 0 21px;
+	border-bottom:1px dotted #707070;
+	margin-top:27px;
+}
+.search_section.last,.search_section:last-child {
+	border:none;
+}
+.search_section .section_name{
+	width:140px;
+	float:left;
+}
+.search_section .section_name p{
+	margin-top:8px;
+	margin-bottom: 9px;
+}
+.search_section .section_name a{
+	color:#808080;
+	font-size:13px;
+}
+.search_section .section_name a:hover{
+	color:#b81d1b;
+}
+.search_section .search_list{
+	width:790px;
+	float:right;
+}
+.search_section .search_list .item_desc{
+	width:595px;
+}
+.search_section .search_list .item > a{
+	height:auto;
+	display:inline-block;
+	float:left;
+	margin-right:18px;
+}
+.search_section .search_list .item .block_item_counters{
+	width:450px;
+	float:none;
+	text-align:left;
+}
+
+.result_cnt{
+	display:inline-block;
+	margin: 12px 0 0 22px;
+	font-size:13px;
+	color:#2d2d2d
+}
+
+.page_settings table{
+	margin-left:18px;
+	margin-bottom:7px;
+}
+.page_settings table td{
+	vertical-align:top;
+	color:#808080;
+	font-size:13px;
+	width:165px;
+}
+.page_settings table td+td{
+	vertical-align:top;
+	color:#2d2d2d;
+	font-size:13px;
+	width:740px;
+}
+.search_page .page_settings{
+	height:auto !important;
+}
