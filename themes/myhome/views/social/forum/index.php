@@ -128,10 +128,7 @@ Yii::app()->openGraph->renderTags();
 		<div class="next_topic"><i></i></div>
 	</div>
 
-	<?php
-	// Яндекс директ
-    Yii::app()->controller->renderPartial('//widget/profitpartner/profit_partner_list_under');
-	?>
+
 
 </div>
 <div class="f_right">

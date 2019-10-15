@@ -35,11 +35,11 @@
 			'url'    => array('/users', 'login' => $user->login, 'action' => 'contacts'),
 			'active' => $this->action->id == 'contacts',
 		),
-		array(
-			'label'   => 'Статистика',
-			'url'     => array('/users', 'login' => $user->login, 'action' => 'statistic'),
-			'active'  => $this->action->id == 'statistic',
-			'visible' => Yii::app()->user->id == $user->id,
-		),
+//		array(
+//			'label'   => 'Статистика',
+//			'url'     => array('/users', 'login' => $user->login, 'action' => 'statistic'),
+//			'active'  => $this->action->id == 'statistic',
+//			'visible' => Yii::app()->user->id == $user->id,
+//		),
 )));
 ?>

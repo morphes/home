@@ -37,15 +37,7 @@
 
 <a name="comments"></a>
 <div class="comments" id="comments">
-    <?php
-    if($showDirect) {
-    Yii::app()->controller->renderPartial('//widget/profitpartner/profit_partner_item_under');
-    }
-    ?>
-    <?php
-    // Between
-    Yii::app()->controller->renderPartial('//widget/google/adsense_728x90_idea_card');
-    ?>
+
     <div class="header">
 		<h2>
 			<?php

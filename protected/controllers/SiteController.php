@@ -58,7 +58,7 @@ class SiteController extends FrontController
             // Доступ к индексу, капче и ошибкам всем пользователям
             array(
                 'allow',
-                'actions' => array('index', 'captcha', 'captchaWhite', 'error'),
+                'actions' => array('index', 'captcha', 'captchaWhite', 'error', 'callback'),
                 'users' => array('*'),
             ),
             // Ограничение доступа к функциям контроллера
@@ -75,6 +75,41 @@ class SiteController extends FrontController
 
         return parent::beforeAction($action);
     }
+
+
+public function actionCallback()
+{
+
+if(!isset($_POST['Callback']) || $_POST['Callback']['accept'] == 0){
+  throw new CHttpException(404, "Страница не найдена");
+}
+$call = $_POST['Callback'];
+
+$message = <<<EOD
+
+<table>
+<tr>
+<td>Имя</td><td>{$call['name']}</td>
+</tr>
+<tr>
+<td>Телефон</td><td>{$call['phone']}</td>
+</tr>
+<tr>
+<td colspan="2">Согласен на обработку</td>
+</tr>
+</table>
+EOD;
+
+$to      = 'to@mail.ru';
+$subject = 'Сообщение с сайта: Обратный звонок';
+$headers = 'From: from@mail.ru' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+mail($to, $subject, $message, $headers);
+
+$this->redirect('/');
+Yii::app()->end();
+
+}
 
     /**
      * @brief Declares class-based actions.
@@ -116,6 +151,8 @@ class SiteController extends FrontController
      */
     public function actionIndex()
     {
+//var_dump(get_class(Yii::app()));
+//die();
         $this->bodyClass = 'index';
 
         // Определяем промоблок
@@ -735,14 +772,22 @@ class SiteController extends FrontController
                     $tmpPassRequired = true;
                 }
             }
+//echo "<pre>";
+//var_dump(get_class($model));
+//die();
+//print_r($model->getErrors());
+//print_r(get_class_methods($model));
+//die();
             if ($model->getError('login')) {
+//die('1');
                 $message['User[login]'] = $model->getError('login');
             } else {
+//die('2');
                 $message['User[password]'] = 'Неверно указан логин или пароль';
             }
 
         }
-
+//var_dump('adsfasdfasdf');
         die(CJSON::encode(array(
             'success' => $success,
             'tmpPassRequired' => $tmpPassRequired,

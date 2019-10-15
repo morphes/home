@@ -26,8 +26,8 @@
 		<span><a data-value="3" id="closed_tenders" class="" href="#">Завершенные</a></span>
 	</div>
 	<div class="cost">Бюджет</div>
-	<div class="response">Откликов</div>
-	<div class="respond">Откликнуться</div>
+<!--	<div class="response">Откликов</div>-->
+<!--	<div class="respond">Откликнуться</div>-->
 	<div class="clear"></div>
 </div>
 <div class="tender_list">

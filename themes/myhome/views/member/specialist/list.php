@@ -134,14 +134,10 @@ Yii::app()->openGraph->renderTags();
 			</div>
 
 			<div class="-gutter-top-dbl -gutter-right">
-                <?php Yii::app()->controller->renderPartial('//widget/profitpartner/profit_partner_vertical'); ?>
 			</div>
 
 			<div class="-gutter-top-dbl -gutter-right">
-				<?php
-				// Google adsense
-				$this->renderPartial('//widget/google/adsense_120x600_specialist_list');
-				?>
+
 			</div>
 
 			<script>
@@ -258,9 +254,7 @@ Yii::app()->openGraph->renderTags();
 					echo CHtml::tag('div', array('class'=>'no_result'), $emptyText);
 				}
 				?>
-                <div class="-gutter-top-dbl">
-                    <?php Yii::app()->controller->renderPartial('//widget/profitpartner/profit_partner_list_under'); ?>
-                </div>
+
 
 
             </div>

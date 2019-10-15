@@ -255,6 +255,52 @@ class IndexSpecPhoto extends CActiveRecord
 		}
 	}
 
+	static public function getPhotos($clearCache = false)
+	{
+
+		$ideas = Yii::app()->cache->get(IndexSpecPhoto::getCacheKeySpec		());
+
+		if ($clearCache == true) {
+			$ideas = false;
+		}
+
+		if (!$ideas) {
+			/** @var $res IndexIdeaPhoto[] */
+			$res = IndexSpecPhoto::model()->findAllByAttributes(array(
+				'status' => IndexSpecPhoto::STATUS_ACTIVE
+			));
+
+			if ($res) {
+				shuffle($res);
+			}
+
+
+			$ideas = array();
+			for ($i = 0; $i < 6; $i++) {
+
+				if (isset($res[$i])) {
+					$item = $res[$i];
+				} else {
+					break;
+				}
+
+				$ideas[] = array(
+					'idea_name'   => $item->name,
+					//'idea_url'    => '/idea/interior/' . $item->model_id,
+					'img_src'     => $item->getImageFullPath(),
+					'author_role' => $item->author->role,
+					'author_url'  => $item->author->getLinkProfile(),
+					'author_name' => $item->author->name,
+					'author_img'  => $item->author->getPreview(User::$preview['crop_23']),
+				);
+			}
+
+
+			Yii::app()->cache->set(IndexSpecPhoto::getCacheKeySpec(), $ideas, 600);
+		}
+
+		return $ideas;
+	}
 
 	/**
 	 * Возваращает ключ кэша для блока специалистов на главной странице.

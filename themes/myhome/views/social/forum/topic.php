@@ -103,7 +103,6 @@ Yii::app()->openGraph->renderTags();
 			}
 			?>
 		</div>
-        <?php  Yii::app()->controller->renderPartial('//widget/profitpartner/profit_partner_item_under'); ?>
 
         <div class="topic_answer_form">
 			<div class="user_photo">

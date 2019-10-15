@@ -14,17 +14,17 @@
 			'active'  => $this->module->id == 'tenders',
 			'visible' => Yii::app()->user->id == $user->id,
 		),
-		array(
-			'label'   => 'Избранное',
-			'url'     => array('/users', 'login' => $user->login, 'action' => 'favorite'),
-			'active'  => $this->id == 'favorite',
-			'visible' => Yii::app()->user->id == $user->id,
-		),
-		array(
-			'label'  => 'Активность',
-			'url'    => array('/users', 'login' => $user->login, 'action' => 'activity'),
-			'active' => $this->action->id == 'activity',
-		),
+//		array(
+//			'label'   => 'Избранное',
+//			'url'     => array('/users', 'login' => $user->login, 'action' => 'favorite'),
+//			'active'  => $this->id == 'favorite',
+//			'visible' => Yii::app()->user->id == $user->id,
+//		),
+//		array(
+//			'label'  => 'Активность',
+//			'url'    => array('/users', 'login' => $user->login, 'action' => 'activity'),
+//			'active' => $this->action->id == 'activity',
+//		),
 
 	)
 ));

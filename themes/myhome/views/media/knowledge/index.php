@@ -89,7 +89,6 @@ $this->widget('application.components.widgets.SeoMetaTags.WSeoMetaTags');
 		<div class="clear"></div>
 	</div>
 
-   <?php  Yii::app()->controller->renderPartial('//widget/profitpartner/profit_partner_list_above'); ?>
 
    <?php
 	if ($filter['f_viewtype'] == MediaKnowledge::VIEW_TYPE_ELEM OR empty($filter['f_viewtype']))
@@ -111,7 +110,6 @@ $this->widget('application.components.widgets.SeoMetaTags.WSeoMetaTags');
 		'htmlOptions'         => array('class' => 'knowledge_items '.$optionClass),
 		//'bannerText' => $this->renderPartial('//widget/banner/_mediaBanner', Config::getBannerData(), true),
 	));
-        Yii::app()->controller->renderPartial('//widget/profitpartner/profit_partner_list_under');
     ?>
 
         <div class="page_settings bottom new">
@@ -183,15 +181,6 @@ $this->widget('application.components.widgets.SeoMetaTags.WSeoMetaTags');
 	</div>
 	<?php endif; ?>
 
-
-	<?php
-	// Яндекс.Директ
-	$this->renderPartial('//widget/google/adsense_120x600_media_list');
-	?>
-	<?php
-	// Яндекс.Директ
-    Yii::app()->controller->renderPartial('//widget/profitpartner/profit_partner_vertical');
-	?>
 </div>
 <div class="clear"></div>
 

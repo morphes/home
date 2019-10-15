@@ -67,7 +67,6 @@
 
 		<div class="clear"></div>
 	</div>
-    <?php  Yii::app()->controller->renderPartial('//widget/profitpartner/profit_partner_list_under'); ?>
 </div>
 
 <div class="f_right">

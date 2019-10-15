@@ -52,7 +52,6 @@ Yii::app()->openGraph->renderTags();
 				      onclick="CCommon.scrollTo($('#comments'))"><i><?php echo number_format($model->count_comment, 0, '', ' ') ?></i></span>
 				<span class="-pseudolink -icon-thumb-up-xs -small -gray -gutter-left"><i><?php echo LikeItem::model()->countLikes(get_class($model),$model->id);?></i></span>
 			</div>
-            <?php  Yii::app()->controller->renderPartial('//widget/profitpartner/profit_partner_item_above'); ?>
 
             <div class="-gutter-top-dbl -gutter-bottom-dbl -inset-bottom">
 				<div class="-col-wrap social-likes">
@@ -115,10 +114,7 @@ Yii::app()->openGraph->renderTags();
 						);
 					});
 				</script>
-                <?php
-                // Яндекс.Директ
-                Yii::app()->controller->renderPartial('//widget/profitpartner/profit_partner_item_under');
-                ?>
+
 			</div>
 			<div class="-inset-all -gutter-top-dbl -text-align-center">
 				<?php
@@ -277,11 +273,6 @@ Yii::app()->openGraph->renderTags();
 
 		</div>
 		<div class="-col-3 article-sidebar">
-			<?php
-			// Яндекс.Директ
-			$this->renderPartial('//widget/google/adsense_160х600_media');
-			?>
-
 
 			<div class="-gutter-bottom-dbl">
 				<?php $this->widget('application.components.widgets.banner.BannerWidget', array(

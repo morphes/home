@@ -19,8 +19,3 @@ $this->pageTitle = 'Онлайн-планировщик — MyHome.ru';
 	<iframe  src="https://planner5d.com/app/?theme=gray&lang=ru" style="width:940px;height:700px;border:none;"></iframe>
 </div>
 
-
-<?php
-// Яндекс.Директ
-Yii::app()->controller->renderPartial('//widget/profitpartner/profit_partner_item_under');
-?>

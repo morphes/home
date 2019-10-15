@@ -252,16 +252,6 @@
 		</div>
 	<?php endif; ?>
 
-	<div class="upload_links <?php echo (Yii::app()->user->model->data->price_list) ? 'hide' : ''; ?> <?php echo !empty($uploadErrors['price_list']) ? 'hide' : ''; ?>">
-		<span class=""><i></i></span>
-		<a class="pricelist not_uploaded" href="#">Загрузить прайс-лист</a>
-		<div class="c-hinter" data-index="0">
-			<i></i>
-			<p class="c-hinter-text">
-				Добавьте прайс-лист, чтобы потенциальные клиенты могли ознакомиться с расценками на ваши услуги. Допускаются файлы размером не более 3 Мб в форматах xls, doc, pdf, rtf или zip.
-			</p>
-		</div>
-	</div>
 
 	<div id="price_form" class="hide">
 		<form action="#price" method="POST" enctype="multipart/form-data">

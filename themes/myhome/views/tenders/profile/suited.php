@@ -1,13 +1,7 @@
 <?php Yii::app()->clientScript->registerCssFile('/css/style.css'); ?>
 
-<div class="portfolio_head dotted">
-	<div class="menu_level2">
-		<ul>
-			<li  class="current" data-value="1"><?php echo CHtml::link('Подходящие', "/users/{$user->login}/tenders/suited"); ?> <span><?php echo $dataProvider->getTotalItemCount(); ?></span></li>
-			<li data-value="2"><?php echo CHtml::link('Я откликнулся', "/users/{$user->login}/tenders/idoer"); ?> <span><?php echo Tender::getIdoerProvider($user->id)->getTotalItemCount(); ?></span></li>
-			<li data-value="3"><?php echo CHtml::link('Я заказал', "/users/{$user->login}/tenders/iclient"); ?> <span><?php echo Tender::getIclienProvider($user->id)->getTotalItemCount(); ?></span></li>
-		</ul>
-	</div>
+<div class="portfolio_head ">
+
 	<div class="btn_conteiner btn_project">
 		<?php echo CHtml::link('Создать заказ <i></i>',
 			'/tenders/create',
@@ -23,8 +17,6 @@
 		<span><a data-value="3" id="closed_tenders" class="" href="#">Завершенные</a></span>
 	</div>
 	<div class="cost">Бюджет</div>
-	<div class="response">Откликов</div>
-	<div class="respond">Откликнуться</div>
 	<div class="clear"></div>
 </div>
 <div class="tender_list">
