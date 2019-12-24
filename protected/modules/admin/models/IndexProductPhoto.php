@@ -128,10 +128,11 @@ class IndexProductPhoto extends CActiveRecord
 			array('name, status', 'required'),
 			array('image_id, product_id, product_id, type, status, price, create_time, update_time', 'numerical', 'integerOnly'=>true),
 			array('name', 'length', 'max'=>50),
+            array('url', 'length', 'max'=>255),
 
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, image_id, type, status, price, name, create_time, update_time', 'safe', 'on'=>'search'),
+			array('id, image_id, type, status, price, url, name, create_time, update_time', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -161,6 +162,7 @@ class IndexProductPhoto extends CActiveRecord
 			'status'      => 'Статус',
 			'price'       => 'Цена',
 			'name'        => 'Название',
+            'url'         => 'Url',
 			'create_time' => 'Дата создания',
 			'update_time' => 'Дата обновления',
 		);

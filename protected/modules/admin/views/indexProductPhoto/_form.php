@@ -23,6 +23,8 @@ $cs->registerCss('photo_tab', '
 
 	<?php echo $form->textFieldRow($model,'price',array('class'=>'span5')); ?>
 
+    <?php echo $form->textFieldRow($model,'url',array('class'=>'span5', 'maxlength'=>255)); ?>
+
 	<div class="row">
 		<div class="span8 clearfix">
 			<?php echo $form->textFieldRow($model, 'product_id',array('class'=>'span5 product_id', 'autocomplete' => 'off', 'id'=>'origin')); ?>
